@@ -102,39 +102,71 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
+Create a New Project:
+Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA). 2. Create a New Design File:
 
+Once the project is created, right-click on the project name in the Project Navigator and select "Add New File." Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language. 3. Write the Combinational Logic Code:
 
+Open the newly created Verilog or VHDL file and write the code for your combinational logic. 4. Compile the Project: To compile the project, click on "Processing" > "Start Compilation" in the menu. Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device. 5. Analyze and Fix Errors:
 
+If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window. Review and fix any issues in your code if necessary. View the RTL diagram. 6. Verification:
+
+Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF".
+
+Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
 ### PROGRAM 
-/*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: RAGUL RAAJAN .T
+RegisterNumber: 23007752
+### 1.SR FLIP FLOP:
+![Screenshot 2023-12-23 071926](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/97b3dcee-8f25-4372-ac75-d295bad8b9e3)
+### 2.D FLIP FLOP:
+![Screenshot 2023-12-23 072446](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/94ba3130-9833-44c9-89b3-ef3e822aa778)
+### 3.JK FLIP FLOP:
+![Screenshot 2023-12-23 072559](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/3a2c6afe-11ad-4c9a-bc05-a36a17c8aae3)
+### 4.T FLIP FLOP:
+![Screenshot 2023-12-23 072715](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/7caf3430-2a03-41c4-9b63-f40a96762e8f)
 
+### RTL DIAGRAM:
+### SR FLIP FLOP:
+![Screenshot 2023-12-23 072947](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/458da7f4-6bf8-44c9-ac53-3fdf2394dd8c)
 
+### D FLIP FLOP:
+![Screenshot 2023-12-23 073000](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/428b9ef2-e40d-4d48-abfe-8deb697f0716)
 
+### JK FLIP FLOP:
+![Screenshot 2023-12-23 073011](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/528e49ea-929e-494a-a9b5-15ad8683bfaf)
 
+### T FLIP FLOP:
+![Screenshot 2023-12-23 073022](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/1e241661-059b-4c49-b5aa-5370b1332633)
 
+### TRUTH TABLE:
 
-### RTL LOGIC FOR FLIPFLOPS 
+###  SR FLIP FLOP:
+![Screenshot 2023-12-23 073310](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/d9a747b0-64b8-459d-85b1-94490db192bd)
 
+### D FLIP FLOP:
+![Screenshot 2023-12-23 073410 - Copy](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/4340fbea-cddf-47a4-bb55-f2ab8dfc70ba)
 
+### JK FLIP FLOP:
+![Screenshot 2023-12-23 073708](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/6b90369b-4af7-4534-b3f2-f867f1508eee)
 
-
-
-
-
-
+### T FLIP FLOP:
+![Screenshot 2023-12-23 073501](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/82891beb-b60b-4680-8c9a-f41bce517a35)
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
+###  SR FLIP FLOP:
+![Screenshot 2023-12-23 074055](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/c5fe9bd9-c21a-4db1-be12-55f702d1edab)
 
+### D FLIP FLOP:
+![Screenshot 2023-12-23 074114](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/22173ffb-e3c5-423c-bc43-a40fe0c1875c)
 
+### JK FLIP FLOP:
+![Screenshot 2023-12-23 074131](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/ca771aa6-d3de-4e98-9371-631dc0db53b5)
 
+### T FLIP FLOP:
+![Screenshot 2023-12-23 074150](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/87a91196-6a87-4c89-ace5-5b3b624bc6fd)
 
-
-
-
-### RESULTS 
+### RESULTS :
+Thus, all the FLIP FLOPS are designed and the truth tables are verified using quartus software.
