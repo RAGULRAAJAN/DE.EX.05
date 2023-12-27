@@ -114,14 +114,16 @@ If there are any errors or warnings during the compilation process, Quartus will
 Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF".
 
 Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
-### PROGRAM 
+# PROGRAM 
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: RAGUL RAAJAN .T
 RegisterNumber: 23007752
 ### 1.SR FLIP FLOP:
-![Screenshot 2023-12-23 071926](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/97b3dcee-8f25-4372-ac75-d295bad8b9e3)
+![Screenshot 2023-12-27 110649](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/88ba21fa-084b-45cf-a5cf-250e41686db3)
+
 ### 2.D FLIP FLOP:
-![Screenshot 2023-12-23 072446](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/94ba3130-9833-44c9-89b3-ef3e822aa778)
+![Screenshot 2023-12-27 110657](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/dc8ff246-1724-4728-b5a8-23b1ba044f4f)
+
 ### 3.JK FLIP FLOP:
 ![Screenshot 2023-12-23 072559](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/3a2c6afe-11ad-4c9a-bc05-a36a17c8aae3)
 ### 4.T FLIP FLOP:
@@ -129,7 +131,8 @@ RegisterNumber: 23007752
 
 ### RTL DIAGRAM:
 ### SR FLIP FLOP:
-![Screenshot 2023-12-23 072947](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/458da7f4-6bf8-44c9-ac53-3fdf2394dd8c)
+![Screenshot 2023-12-27 110714](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/b63f61a5-2999-4ffd-94dc-eb8845d32a88)
+
 
 ### D FLIP FLOP:
 ![Screenshot 2023-12-23 073000](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/428b9ef2-e40d-4d48-abfe-8deb697f0716)
@@ -157,7 +160,7 @@ RegisterNumber: 23007752
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
 ###  SR FLIP FLOP:
-![Screenshot 2023-12-23 074055](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/c5fe9bd9-c21a-4db1-be12-55f702d1edab)
+![Screenshot 2023-12-27 110728](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/4de8571c-1f75-4d57-b55f-b8b5984e24c9)
 
 ### D FLIP FLOP:
 ![Screenshot 2023-12-23 074114](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/22173ffb-e3c5-423c-bc43-a40fe0c1875c)
