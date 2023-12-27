@@ -116,7 +116,11 @@ Click on "File" > "New" > "Verification/Debugging Files" > "University Program V
 Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
 # PROGRAM 
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
+
+
 Developed by: RAGUL RAAJAN .T
+
+
 RegisterNumber: 23007752
 ### 1.SR FLIP FLOP:
 ![Screenshot 2023-12-27 110649](https://github.com/RAGULRAAJAN/DE.EX.05/assets/147473144/88ba21fa-084b-45cf-a5cf-250e41686db3)
